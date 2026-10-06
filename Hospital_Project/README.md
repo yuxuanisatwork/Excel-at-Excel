@@ -9,3 +9,8 @@ Task:
 - Identify the most likely root casue using the data available.
 - Estimate the impact (lost OR time, dollar impact if there is reasonable basis for it).
 - Be ready to give concrete next step for Perioperative administration.
+
+##Step 1: Data Integrity Check and Cleaning
+Data Integrity: check the date of this data set to see if it is what is required by our stakeholders, in this case, May and July should be included. Furthermore, check if all the Departments and Rooms data are included to ensure data complete.
+Data Cleaning: 1) First make sure all the data formats are correct. Date format aligned check. 2)Look for duplicates and blank cells. Confirm if data needs to be updated/corrected, or should be removed. 3)Make sure data is clean by aliging entry format. Make sure all the room names follow this format: OR-1, OR-2, OR-3, CathLab-A, Cathlab-B, ENT, General Surgery, Orthopedics. Functions involved "find", "relaced". Make sure Surgeon names are aligned format as well, using "=PROPER", "="text"& PROPER" to ensure all the names are "DR.lastname".
+Below image is what cleaned data looks like:
