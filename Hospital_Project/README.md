@@ -24,3 +24,9 @@ Data Cleaning:
 Below image is what cleaned data looks like:
 
 ![clean OR data](Images/Clean_OR_Data.png)
+
+## Step 2: Data analysis with Excel
+
+1) The OR room utilization rate = actual used duration / blocked time. Because we already have the denominator，we will calculate the actural used duration by `Actural_End - Actural_Start`. Using function `=TEXT (value1 - value2, "[m]")`, becasue I would want the measurement to be "minitues". Imporatantly, because the function makes the calculated results Text Strings, we then will need to create an assistant column, by special pasting the value from the Duration_Raw column.
+
+As it show below:
