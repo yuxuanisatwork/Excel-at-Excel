@@ -29,4 +29,6 @@ Below image is what cleaned data looks like:
 
 1) The OR room utilization rate = actual used duration / blocked time. Because we already have the denominator，we will calculate the actural used duration by `Actural_End - Actural_Start`. Using function `=TEXT (value1 - value2, "[m]")`, becasue I would want the measurement to be "minitues". Imporatantly, because the function makes the calculated results Text Strings, we then will need to create an assistant column, by special pasting the value from the Duration_Raw column.
 
-As it show below:
+As is shown below:
+
+![Duration Calculation](Images/Duration_Calculation.png)
